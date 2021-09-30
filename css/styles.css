@@ -304,6 +304,7 @@ body #main-con .attribution {
     width: 400px;
   }
   body #main-con header {
+    margin-bottom: 10px;
     width: 400px;
     max-width: 100%;
   }
@@ -332,7 +333,7 @@ body #main-con .attribution {
     border-radius: inherit;
     width: 80px;
     height: 80px;
-    padding: 5px;
+    padding: 10px;
   }
   body #main-con #game-con {
     display: flex;
@@ -341,19 +342,23 @@ body #main-con .attribution {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    height: 400px;
+    height: 350px;
   }
   body #main-con #game-con button {
     cursor: pointer;
   }
   body #main-con #result-con #choice-con {
     justify-content: space-around;
+    margin-bottom: 20px;
   }
   body #main-con #result-con #result {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+  }
+  body #main-con #result-con #result .option {
+    margin-bottom: 20px;
   }
   body #main-con #result-con #result .show-winner {
     order: 1;
