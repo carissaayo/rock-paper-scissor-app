@@ -305,12 +305,13 @@ body #main-con .attribution {
   }
   body #main-con header {
     width: 400px;
+    max-width: 100%;
   }
   body #main-con header .header-con .header-text {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   body #main-con header .header-con .score-con {
-    width: 150px;
+    width: 120px;
   }
   body #main-con header .header-con .score-con .score-text {
     font-size: 1rem;
@@ -321,16 +322,16 @@ body #main-con .attribution {
   }
   body #main-con .option {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin: 15px;
   }
   body #main-con .option span {
     background-color: white;
     display: inline-block;
     border-radius: inherit;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     padding: 20px;
   }
   body #main-con #game-con {
@@ -362,7 +363,7 @@ body #main-con .attribution {
   }
   body #main-con .attribution {
     left: 20px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
