@@ -1,0 +1,131 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-image: radial-gradient(circle at 50% 0, #1f3756, #141539);
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 16px;
+  height: 100vh;
+  width: 100vw;
+}
+
+body #main-con {
+  margin: 0 auto;
+  width: 700px;
+  max-width: 100%;
+  position: relative;
+}
+
+body #main-con header {
+  border: 2px solid #606e85;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+body #main-con header .header-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+body #main-con header .header-con .header-text {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+body #main-con header .header-con .score-con {
+  background-color: white;
+  width: 180px;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+body #main-con header .header-con .score-con .score-text {
+  color: #2a46c0;
+  font-size: 1.2rem;
+}
+
+body #main-con header .header-con .score-con .score-value {
+  font-size: 4rem;
+  color: #3b4363;
+}
+
+body #main-con .option {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 25px;
+}
+
+body #main-con .option span {
+  background-color: white;
+  display: inline-block;
+  border-radius: inherit;
+  width: 110px;
+  height: 110px;
+  padding: 30px;
+}
+
+body #main-con #papper-con {
+  background-image: linear-gradient(0deg, #4865f4, #5671f5);
+}
+
+body #main-con #scissors-con {
+  background-image: linear-gradient(0deg, #ec9e0e, #eca922);
+}
+
+body #main-con #rock-con {
+  background-image: linear-gradient(0deg, #dc2e4e, #dd405d);
+}
+
+body #main-con #game-con {
+  display: flex;
+  width: 500px;
+  max-width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 400px;
+}
+
+body #main-con #game-con button {
+  cursor: pointer;
+}
+
+body #main-con #result-con div {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  max-width: 100%;
+  align-items: center;
+}
+
+body #main-con #result-con div p {
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.3rem;
+}
+
+body #main-con #rules-con {
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+  text-transform: uppercase;
+  position: fixed;
+  border: 1px solid white;
+  right: 40px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */
