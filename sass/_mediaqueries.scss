@@ -1,0 +1,191 @@
+@media screen and (max-width:780px) {
+    body{
+    
+    height:100vh;
+    width:100vw;
+
+ #main-con{
+       
+        width: 600px;
+      
+    // header styles
+    
+    // the .option styles is outside its parent styles so as to be able 
+    // to reuse in the result con as well
+    .option{
+              
+                width:150px;
+                height: 150px;                
+                span{
+                   width:100px;
+                   height:100px;
+                   padding:20px;
+                
+                }
+                
+                
+               
+            }
+              
+        #game-con{
+            display: flex;
+            width:500px;
+            max-width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+       
+            height:400px;       
+        }
+    #result-con{
+
+            p{
+                text-transform: uppercase;
+                color: white;
+                font-size: 1.3rem;
+            }
+            #result{
+               .show-winner{
+               
+                h1{
+                   
+                    font-size: 2rem;     
+               
+
+                }
+            }
+            
+
+        }
+        
+    }
+    }
+
+}
+}
+
+@media screen and (max-width:650px) {
+    body{
+    height:100vh;
+    width:100vw;
+
+ #main-con{
+       
+        width: 540px;
+      
+    // header styles
+    
+    // the .option styles is outside its parent styles so as to be able 
+    // to reuse in the result con as well
+    .option{
+              
+                width:150px;
+                height: 150px;                
+                span{
+                   width:100px;
+                   height:100px;
+                   padding:20px;
+                
+                }
+                
+                
+               
+            }
+              
+        #game-con{
+            display: flex;
+            width:500px;
+            max-width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+       
+            height:400px;       
+        }
+    #result-con{
+
+            p{
+                text-transform: uppercase;
+                color: white;
+                font-size: 1rem;
+            }
+            #result{
+               .show-winner{
+               
+                h1{
+                   
+                    font-size: 1.5rem;     
+               
+
+                }
+            }
+            
+
+        }
+        
+    }
+    }
+
+}
+}
+@media screen and (max-width:560px) {
+    body{
+    height:100vh;
+    width:100vw;
+
+ #main-con{
+       
+        width: 500px;
+      
+    // header styles
+    
+    // the .option styles is outside its parent styles so as to be able 
+    // to reuse in the result con as well
+    .option{
+              
+                width:130px;
+                height: 130px;                
+                span{
+                   width:100px;
+                   height:100px;
+                   padding:20px;
+                
+                }
+                
+                
+               
+            }
+              
+        #game-con{
+            display: flex;
+            width:500px;
+            max-width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+       
+            height:400px;       
+        }
+    #result-con{
+
+            p{
+                text-transform: uppercase;
+                color: white;
+                font-size: 1rem;
+            }
+            #result{
+               .show-winner{
+               
+                h1{
+                   
+                    font-size: 1.5rem;     
+               
+
+                }
+            }
+            
+
+        }
+        
+    }
+    }
+
+}
+}

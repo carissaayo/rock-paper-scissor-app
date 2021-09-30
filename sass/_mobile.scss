@@ -1,0 +1,86 @@
+@media screen and (max-width:520px) {
+  body{
+    font-size:14px;
+    overflow-x: hidden;
+    #main-con{
+        width: 400px;
+    // header styles
+    header{
+            // margin-bottom: 10px;
+            width:400px;
+            // margin-left: 10px;
+            .header-con{
+            .header-text{
+                font-size: 1.8rem;
+            }
+            .score-con{
+                    width:150px;
+                    .score-text{
+                        font-size:1rem;
+                    }
+                    #score-value{
+                        font-size: 3rem;
+                        color:$DarkText;
+                    }
+
+            }
+        }
+    }
+    // the .option styles is outside its parent styles so as to be able 
+    // to reuse in the result con as well
+    .option{
+                border-radius: 50%;
+                width:150px;
+                height: 150px;
+                margin: 15px;
+                
+                
+                span{
+                   background-color: white;
+                   display: inline-block;
+                   border-radius: inherit;
+                   width:100px;
+                   height:100px;
+                   padding:20px;
+                }         
+               
+            }
+        #game-con{
+            display: flex;
+            width:400px;
+            max-width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            height:400px;
+            button{
+                cursor: pointer;
+            }   
+        }
+    #result-con{
+           #choice-con{
+               justify-content: space-around;
+           }
+            #result{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                .show-winner{
+                    order:1;  
+            }
+        }
+    }   
+    #rules-btn{ 
+                bottom:50px;            
+        }
+             .attribution{
+                left:20px; 
+                font-size: 0.8rem;              
+        }
+    }
+      
+    }
+
+}
+

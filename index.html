@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="css/styles.css">
   
   <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,700&display=swap" rel="stylesheet">
 
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -26,29 +29,29 @@
       </h1>  
       <div class="score-con">
         <p class="score-text">score</p>
-        <h1 class="score-value">12</h1>
+        <h1 id="score-value">0</h1>
       </div>
     </div>
   </header>
   <main id="game-con">
       
-        <button class='option' id='papper-con'><span >
+        <button data-option ='paper' class='option option-btn' id='papper-con'><span >
         <img src="./images/icon-paper.svg" alt="Papper"/>
         </span></button >
-        <button
-        class='option' id='scissors-con' >
+        <button data-option ='scissors'
+        class='option option-btn' id='scissors-con' >
         <span >
             <img src="./images/icon-scissors.svg" alt="Scissors"/>
         </span></button>
-        <button 
-        class='option' id='rock-con'>
+        <button  data-option ='rock'
+        class='option option-btn' id='rock-con'>
         <span >
           <img src="./images/icon-rock.svg" alt="Rock"/>
         </span></button>
      
   </main>
   <section id="result-con">
-    <div>
+    <div id='choice-con'>
       <p class="choice">You Picked</p>
       <p class="choice"> The House Picked</p>
     </div>
@@ -56,6 +59,10 @@
        <button class='option' id='papper-con'><span >
         <img src="./images/icon-paper.svg" alt="Papper"/>
         </span></button >
+        <div class='show-winner'>
+          <h1>You <span>Win</span></h1>
+          <button id="play-again"> Play Again</button>
+        </div>
         <button
         class='option' id='scissors-con' >
         <span >
@@ -64,14 +71,21 @@
 
     </div>
   </section>
-
-    <button id="rules-con">Rules</button>
-  
+ <section class='rules-con'>
+   <div>
+     <img src="./images/image-rules.svg" alt="rules">
+    </div>
+    <button id='close-btn'>
+      <img   src="./images/icon-close.svg" alt="close button">
+    </button>
+ </section>
+    <button id="rules-btn">Rules</button>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.github.com/carissaayo" target="_blank">Yussuf Ajao</a>.
+    </div>
   </section>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <script src="./js/main.js"></script>
 </body>
 </html>
